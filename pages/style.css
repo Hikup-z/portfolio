@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: comfortaa, sans-serif;
+    color: #01FFF4;
+    background-color: #1a1825;
+    padding-top: 4vh;
+    overflow-x: hidden;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+
+
+}
+
+.techstack img{
+    width: 100px;
+    height: 100px;
+    margin: 1em;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+
+}
+
+.listItem {
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #01FFF4;
+    text-decoration: none;
+   
+    padding:3vw;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #01FFF4;
+}
+
+a:hover {
+    color: #FA11F2;
+}
+section {
+    width: 100%;
+    margin-bottom: 9vh;
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+
+.title {
+    font-size: 6em;
+    margin-left: 2%;
+}
+
+.subTitle {
+    color: #FA11F2;
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+    
+.grow:hover { 
+    transform: scale(1.1); 
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+}
+
+.technologies {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.text2 {
+    color:lightgray;
+    font-size: 0.8em;
+}
